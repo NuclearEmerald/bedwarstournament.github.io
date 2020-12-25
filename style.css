@@ -1,0 +1,279 @@
+body {
+	background-color: rgb(32, 34, 39);
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+
+main {
+    height: 37vw;
+    background-color: rgb(32, 34, 39);
+}
+
+nav
+{
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 10vw;
+}
+
+.team
+{
+    font-size: 3vw;
+    color: rgb(85, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.5vw;
+}
+
+.player
+{
+    font-size: 3vw;
+    color: rgb(85, 85, 85);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1vw;
+}
+
+input
+{
+    background-color: rgb(46, 46, 46);
+    outline-style: solid;
+    outline-width: 0.2vw;
+    outline-color: rgb(46, 46, 46);
+    outline-offset: -0.2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(160, 160, 160);
+}
+
+h1
+{
+    text-align: center;
+    padding-top: 0.79vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(85, 85, 85);
+    font-size: 2vw;
+}
+
+.h12
+{
+    margin-top: 0vw;
+}
+
+.ib
+{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    float: left;
+}
+
+.s
+{
+    height: 2vw;
+}
+
+.l
+{
+    background-color: rgb(27, 27, 27);
+    width: 40%;
+    height: 0.5vw;
+    margin-top: -7.8vw;
+}
+
+.bb
+{
+    background-color: rgb(22, 24, 27);
+    width: 20vw;
+    height: 4vw;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    margin-bottom: -9vw;
+    border-radius: 1vw;
+}
+
+.bbp
+{
+    background-color: rgb(22, 24, 27);
+    width: 40vw;
+    height: 8vw;
+    margin-top: 10vw;
+    margin-left: 5vw;
+    margin-bottom: -9vw;
+    border-radius: 1vw;
+}
+
+.bb2
+{
+    background-color: rgb(22, 24, 27);
+    width: 20vw;
+    height: 4vw;
+    margin-top: -3.5vw;
+    margin-left: 39vw;
+    margin-bottom: -19vw;
+    border-radius: 1vw;
+}
+
+.bbp2
+{
+    background-color: rgb(22, 24, 27);
+    width: 40vw;
+    height: 8vw;
+    margin-top: -2.15vw;
+    margin-left: 39vw;
+    margin-bottom: -19vw;
+    border-radius: 1vw;
+}
+
+.bbe
+{
+    background-color: rgb(22, 24, 27);
+    width: 20vw;
+    height: 4vw;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    margin-bottom: -2vw;
+    border-radius: 1vw;
+}
+
+.bbe2
+{
+    background-color: rgb(22, 24, 27);
+    width: 20vw;
+    height: 4vw;
+    margin-top: -3.4vw;
+    margin-left: 39vw;
+    border-radius: 1vw;
+}
+
+.bbw
+{
+    background-color: rgb(22, 24, 27);
+    width: 20vw;
+    height: 4vw;
+    position: absolute;
+    margin-left: 69.2vw;
+    margin-top: -11.4vw;
+    border-radius: 1vw;
+}
+
+.hlb
+{
+    height: auto;
+    width: auto;
+    margin-top: -16.3vw;
+}
+
+.hlbe
+{
+    height: auto;
+    width: auto;
+    margin-top: -11.95vw;
+}
+
+.hl
+{
+    width: 4vw;
+    height: 0.2vw;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin: 4.5vw;
+    margin-left: 25vw;
+}
+
+.hle
+{
+    width: 4vw;
+    height: 0.2vw;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-top: 4.8vw;
+    margin-left: 25vw;
+}
+
+.vl
+{
+    width: 0.2vw;
+    height: 9.65vw;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-top: -14.1vw;
+    margin-left: 29vw;
+}
+
+.vl2
+{
+    width: 0.25vw;
+    height: 18.15vw;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-top: 16.9vw;
+    margin-left: 63vw;
+}
+
+.vle
+{
+    width: 0.2vw;
+    height: 5.2vw;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-top: -5.2vw;
+    margin-left: 29vw;
+}
+
+.hl2
+{
+    width: 10vw;
+    height: 0.2vw;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-top: -4.95vw;
+    margin-left: 29.2vw;
+}
+
+.hle2
+{
+    width: 10vw;
+    height: 0.2vw;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-top: -2.8vw;
+    margin-left: 29.2vw;
+}
+
+.hl3
+{
+    width: 4vw;
+    height: 0.25vw;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-left: 59vw;
+    position: absolute;
+    top: 16.8vw;
+}
+
+.hle3
+{
+    width: 4vw;
+    height: 0.2vw;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-left: 20vw;
+    position: absolute;
+    top: 34.8vw;
+}
+
+.hlw
+{
+    width: 6vw;
+    height: 0.25vw;
+    background-color: rgba(255, 255, 255, 0.267);
+    margin-left: 24.25vw;
+    position: absolute;
+    top: 25.4vw;
+}
+
+::-webkit-scrollbar{
+    width: 1.3vw;
+}
+
+::-webkit-scrollbar-track{
+    border: 0.3vw solid rgba(3, 3, 3, 0.295);
+    box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.158);
+}
+
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(45deg, #161616, #333333);
+    border-radius: 0.5vw;
+    outline-color: rgba(0, 0, 0, 0.158);
+    outline-width: 0.3vw;
+    outline-style: inset;
+    outline-offset: -0.3vw;
+}

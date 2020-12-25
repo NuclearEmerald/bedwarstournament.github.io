@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedwars Tournament Bracket</title>
+    <meta name="description" content="The Bedwars Tournament Bracket home page">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <main>
+
+            <div class="bb" onclick="t12t()">
+                <h1 id="t1"></h1>
+            </div>
+
+            <div class="bb" onclick="t22t()">
+                <h1 id="t2"></h1>
+            </div>
+
+            <div class="bb" onclick="t32t()">
+                <h1 id="t3"></h1>
+            </div>
+
+<div class="hlb">
+
+<div class="hl">
+
+</div>
+
+<div class="hl">
+
+</div>
+
+<div class="hl">
+
+</div>
+
+</div>
+
+            <div class="vl"></div>
+
+            <div class="hl2"></div>
+
+            <div class="bb2" onclick="t1wt()">
+                <h1 id="b2">
+                    
+                </h1>
+            </div>
+
+            <div class="hl3"></div>
+
+            <div class="vl2"></div>
+
+            <div class="bbw">
+                <h1 id="tw" class="h12"></h1>
+            </div>
+
+            <div class="l"></div>
+
+
+            <div class="bbe">
+                <h1 id="te1" onclick="te1t()"></h1>
+            </div>
+
+            <div class="bbe">
+                <h1 id="te2" onclick="te2t()"></h1>
+            </div>
+
+            <div class="hlbe">
+
+                <div class="hle"></div>
+
+                <div class="hle"></div>
+
+            </div>
+
+            <div class="vle"></div>
+
+            <div class="hle2"></div>
+
+            <div class="bbe2" onclick="t2wt()">
+                <h1 id="tew"></h1>
+
+                <div class="hle3"></div>
+
+                <div class="hlw"></div>
+
+            </div>
+
+        </main>
+
+        <nav>
+            <div class="ib">
+                <div class="s"></div>
+                <div><label class="team" for="Team1">Team1</label></div>
+                <input type="text" id="Team1" onchange="t1t()">
+            </div>
+
+            <div class="ib">
+                <div class="s"></div>
+                <div><label class="team" for="Team2">Team2</label></div>
+                <input type="text" id="Team2" onchange="t2t()">
+            </div>
+
+            <div class="ib">
+                <div class="s"></div>
+                <div><label class="team" for="Team3">Team3</label></div>
+                <input type="text" id="Team3" onchange="t3t()">
+            </div>
+
+        </nav>
+
+    </div>
+
+    <script>
+
+    function t1t()
+    {
+    document.getElementById('t1').innerHTML = document.getElementById('Team1').value;
+    }
+
+    function t2t()
+    {
+    document.getElementById('t2').innerHTML = document.getElementById('Team2').value;
+    }
+
+    function t3t()
+    {
+    document.getElementById('t3').innerHTML = document.getElementById('Team3').value;
+    }
+
+    function t12t()
+    {
+    document.getElementById('b2').innerHTML = document.getElementById('Team1').value;
+    document.getElementById('te1').innerHTML = document.getElementById('Team2').value;
+    document.getElementById('te2').innerHTML = document.getElementById('Team3').value;
+    }
+
+    function t22t()
+    {
+    document.getElementById('b2').innerHTML = document.getElementById('Team2').value;
+    document.getElementById('te1').innerHTML = document.getElementById('Team1').value;
+    document.getElementById('te2').innerHTML = document.getElementById('Team3').value;
+    }
+
+    function t32t()
+    {
+    document.getElementById('b2').innerHTML = document.getElementById('Team3').value;
+    document.getElementById('te1').innerHTML = document.getElementById('Team1').value;
+    document.getElementById('te2').innerHTML = document.getElementById('Team2').value;
+    }
+
+    function te1t()
+    {
+        document.getElementById('tew').innerHTML = document.getElementById('te1').innerHTML;
+    }
+
+    function te2t()
+    {
+        document.getElementById('tew').innerHTML = document.getElementById('te2').innerHTML;
+    }
+
+    function t1wt()
+    {
+        document.getElementById('tw').innerHTML = document.getElementById('b2').innerHTML;
+    }
+
+    function t2wt()
+    {
+        document.getElementById('tw').innerHTML = document.getElementById('tew').innerHTML;
+    }
+
+    </script>
+
+</body>
+</html>
